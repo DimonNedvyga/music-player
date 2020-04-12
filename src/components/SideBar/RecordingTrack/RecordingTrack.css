@@ -1,0 +1,22 @@
+.RecordingTrack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius:  0 0 18px 18px;
+    transition: background 0.3s;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.RecordingTrack:hover {
+    transition: background 0.3s;
+    background: rgba(0,0,0,0.7);
+}
+
+.svg_icon {
+    width: 80%;
+    height: 80%;
+    fill: rgba(32,124,229,1);
+}

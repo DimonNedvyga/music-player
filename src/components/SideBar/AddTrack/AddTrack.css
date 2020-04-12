@@ -1,0 +1,46 @@
+.AddTrack {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    border-radius: 18px 18px 0 0;
+}
+
+.AddTrack:hover {
+    transition: background 0.3s;
+    background: rgba(0,0,0,0.7);
+}
+
+.btn_horizontal {
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    display: inline-block;
+    background: rgba(32,124,229,1);
+    border-radius: 3px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn_vertical {
+    border-radius: 3px;
+    position: absolute;
+    width: 6px;
+    height: 40px;
+    background: rgba(32,124,229,1);
+    display: inline-block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.uploadFile {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding:0;
+    margin: 0;
+    visibility: hidden;
+}

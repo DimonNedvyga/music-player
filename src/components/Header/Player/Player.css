@@ -1,0 +1,44 @@
+.Player {
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.controls_track {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperProgressLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    .Player {
+        width: 65%;
+    }
+}
+
+@media (max-width: 767px) {
+    .Player {
+        width: 95%;
+    }
+    .controls_track{
+        order: 1;
+    }
+    .wrapperProgressLine {
+        order: 0;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+}

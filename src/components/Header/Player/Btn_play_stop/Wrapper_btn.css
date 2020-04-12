@@ -1,0 +1,38 @@
+.Wrapper_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 5px solid rgba(32,124,229,1);
+    margin: 0 10px;
+    transition: background 0.3s;
+    background: rgba(255,255,255,0.1);
+}
+
+.Wrapper_btn:hover {
+    transition: background 0.3s;
+    background: rgba(255,255,255,0.2);
+}
+
+.stop_btn {
+    width: 20px;
+    height: 20px;
+    background: rgba(32,124,229,1);
+    background: -moz-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 33%, transparent 34%, 69%, rgba(32,124,229,1) 70%, rgba(32,124,229,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(32,124,229,1)), color-stop(0%, rgba(32,124,229,1)), color-stop(33%, rgba(32,124,229,1)), color-stop(34%, rgba(255,255,255,1)), color-stop(69%, rgba(255,255,255,1)), color-stop(70%, rgba(32,124,229,1)), color-stop(100%, rgba(32,124,229,1)));
+    background: -webkit-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 33%, transparent 34%, 69%, rgba(32,124,229,1) 70%, rgba(32,124,229,1) 100%);
+    background: -o-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 33%, transparent 34%,  69%, rgba(32,124,229,1) 70%, rgba(32,124,229,1) 100%);
+    background: -ms-linear-gradient(left, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 33%, transparent 34%,  69%, rgba(32,124,229,1) 70%, rgba(32,124,229,1) 100%);
+    background: linear-gradient(to right, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 33%, transparent 34%,  69%, rgba(32,124,229,1) 70%, rgba(32,124,229,1) 100%);
+}
+
+.play_btn {
+    width: 32px;
+    height: 32px;
+    background: rgba(32,124,229,1);
+    clip-path: polygon(25% 0%, 25% 100%, 100% 50%);
+}
+

@@ -1,0 +1,29 @@
+.TrackList{
+    padding-top: 150px;
+    margin: auto;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 65%;
+    background: #fff;
+}
+
+@media (max-width: 1000px) {
+    .TrackList{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .TrackList{
+        width: 95%;
+        padding-top: 0px;
+        margin-bottom: 150px;
+    }
+}
+
+
+
